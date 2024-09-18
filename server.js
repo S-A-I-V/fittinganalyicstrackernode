@@ -91,5 +91,5 @@ app.get('/api/redundant-skus', (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
+  console.log(`Server running on http://192.168.27.143:${port}`);
 });
